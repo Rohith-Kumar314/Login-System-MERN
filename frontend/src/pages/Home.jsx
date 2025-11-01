@@ -24,7 +24,7 @@ export default function Home() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const url = "http://localhost:8080/products";
+        const url = "https://login-system-mern-hw04.onrender.com/products";
         const headers = {
           headers: {
             authorization: localStorage.getItem("token"),
