@@ -29,7 +29,7 @@ export default function Signup(){
         }
 
         try{
-            const url = "http://localhost:8080/auth/signup";
+            const url = "https://login-system-mern-hw04.onrender.com/auth/signup";
             const response = await fetch(url,{
                 method:"POST",
                 headers:{
